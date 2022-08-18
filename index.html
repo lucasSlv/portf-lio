@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Silva">
+    <meta name="description" content="Portfólio do desenvolvedor front-end Lucas Silva Souza">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Lucas Silva</title>
+    <link rel="shortcut icon" href="./shortcut-icon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/menu-mobile.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <p><a href="#home">&lsaquo;LS/&rsaquo;</a></p>
+            </div>
+            <div>
+                <nav data-menu="suave">
+                    <button data-menu="button" aria-controls="menu"></button>
+                    <ul data-menu="list" class="list-nav" id="menu">
+                        <a href="#home">
+                            <li>Home</li>
+                        </a>
+                        <a href="#sobre">
+                            <li>Sobre mim</li>
+                        </a>
+                        <a href="#experiencia">
+                            <li>Experiência</li>
+                        </a>
+                        <a href="#projetos">
+                            <li>Projetos</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="presentation container" id="home">
+            <div class="container-left">
+                <h1>Olá, eu sou</h1>
+                    <span class="principal__sentence"></span>
+                    <span class="principal__input-cursor"></span>
+                <h1>Desenvolvedor Front-end.</h1>
+                <div class="container-btn">
+                    <a class="btn-likedin" href="https://www.linkedin.com/in/lucas-silva-166864237/" target="_blank">
+                        <img src="./assets/linkedin.svg" alt="Icon Likedin" />
+                        <p>LikedIn</p>
+                    </a>
+                    <a class="btn-github" href="https://github.com/lucasSlv" target="_blank">
+                        <img src="./assets/github.svg" alt="Icon Likedin" />
+                        <p>GitHub</p>
+                    </a>
+                </div>   
+            </div>
+
+            <div class="container-right" >
+                <img src="./assets/code.svg" alt="Image Illustration" />
+            </div>
+        </section>
+        <div class="scroll" data-menu="suave">
+            <a href="#sobre">
+                <p> scroll down </p>
+                <img src="./assets/scroll.png" alt="Scroll Image"/>
+            </a>
+        </div>
+        <section class="about-me" id="sobre">
+            <div class="c-about container" >
+                <div class="c-photo">
+                    <img src="./assets/my-photo.jpeg" alt="My Photo"/>
+                </div>
+                <div class="c-info-about">
+                    <h2> Sobre mim </h2>
+                    <h3> Lagarto, Sergipe</h3>
+                    <p> Meu nome é Lucas Silva Souza, eu nasci no dia 5 de julho na cidade de Lagarto, uma pequena cidade no interior do estado de Sergipe. Moro com meus pais e sou filho único.Terminei recentemente o ensino médio e cursei durante um pequeno tempo o curso de Engenharia Civil. Sempre fui um garoto muito esforçado nos estudos. Passo boa parte do meu dia estudando, lendo livros e no computador. Consequentemente surgiu o gosto por tecnologia e estou cursando ocurso de Desenvolvimento Web no Estartando Devs. </p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/luscaxlx">
+                            <img src="./assets/twitter.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/twitch.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/youtube.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/figma.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/codepen.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/facebook.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="container-btn btn-about">
+                
+                        <a class="btn-curriculo"href="https://www.linkedin.com/in/lucas-silva-166864237/" target="_blank">
+                            <img src="./assets/mail.svg" alt="Icon Likedin" />
+                            <p>Currículo</p>
+                        </a>
+                        <a class="btn-email" href="mailto: lucassilvax005x@gmail.com?subject=Lucas, vim pelo seu portfólio! :)" target="_blank">
+                            <img src="./assets/download-cloud.svg" alt="Icon Likedin" />
+                            <p>E-mail</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experiencia" data-anime="js-scroll">
+            <div class="container">
+                <div>
+                    <h2>Experiência</h2>
+                    <div class="experience-wrapper">
+                        <section class="experience-places">
+                            <ul data-tab="menu">
+                                <li> Help me </li>
+                                <li> Help me </li>
+                                <li> Help me </li>
+                            </ul>
+                        </section>
+                        <div class="experience-description" data-tab="content">
+                            <section data-anime="show-right">
+                                <div class="description">
+                                    <h3> Em busca da minha primeira experiência :) </h3>
+                                    <span> Quem sabe na sua empresa? </span>
+                                    <p> 
+                                        Estou disponível para bater um papo, você pode entrar em contato via e-mail lucassilvax005x@gmail.com 
+                                    </p>
+                                </div>
+                            </section>
+                            <section data-anime="show-right">
+                                <div class="description">
+                                    <h3> Em busca da minha primeira experiência :) </h3>
+                                    <span> Quem sabe na sua empresa? </span>
+                                    <p>
+                                        Estou disponível para bater um papo, você pode entrar em contato via e-mail lucassilvax005x@gmail.com
+                                    </p>
+                                </div>
+                            </section>
+                            <section data-anime="show-right">
+                                <div class="description">
+                                    <h3> Em busca da minha primeira experiência :) </h3>
+                                    <span> Quem sabe na sua empresa? </span>
+                                    <p>
+                                        Estou disponível para bater um papo, você pode entrar em contato via e-mail lucassilvax005x@gmail.com
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="title-skills">
+                <h2> Minhas skills</h2>
+            </div>
+            <ul class="c-skills container">
+                <li class="c-icon-skills">
+                    <img src="./assets/html-icon.svg" alt="Html Icon" />
+                </li>
+                <li class="c-icon-skills">
+                    <img src="./assets/css-icon.svg" alt="Css Icon" />
+                </li>
+                <li class="c-icon-skills">
+                    <img src="./assets/javascript-icon.svg" alt="Javascript Icon" />
+                </li>
+                <li class="c-icon-skills">
+                    <img src="./assets/react-icon.svg" alt="React Icon" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects" id="projetos">
+            <div class="title container">
+                <h2>Projetos</h2>
+            </div>
+                <div class="project-wrapper container">
+                    <article class="project-card">
+                        <a href="https://github.com/lucasSlv/disney-streaming" target="_blank" class="c-img-project">
+                            <img src="./assets/disney-streaming.png" alt="Imagem Projeto" class="project-img" />
+                        </a>
+                        <h3> Disney+ Streaming </h3>
+                        <p> Projeto realizado em HTML e CSS. Meu primeiro projeto me aventurando na área de tecnologia. </p>
+                        <span> Tecnologias usadas no projeto: HTML, CSS. </span>
+                        <div class="container-btn">
+                            <a class="btn-toview1" href="https://github.com/lucasSlv/disney-streaming" target="_blank">
+                                <img src="./assets/link.svg" alt="Link Projeto" />
+                                <p>Visualizar</p>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <a href="#" target="_blank" class="c-img-project">
+                            <img src="./assets/project-login-lol.png" alt="Imagem Projeto" class="project-img" />
+                        </a>
+                        <h3> Login Screen League of Legends </h3>
+                        <p> Login Screen realizada em HTML, CSS e JavaScript. Sendo um clone da tela de login do jogo League of Legends. </p>
+                        <span> Tecnologias usadas no projeto: HTML, CSS, JavaScript. </span>
+                        <div class="container-btn">
+                            <a class="btn-toview2" href="#" target="_blank">
+                                <img src="./assets/link.svg" alt="Link Projeto" />
+                                <p>Visualizar</p>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <a href="https://github.com/lucasSlv/to-do-list" target="_blank" class="c-img-project">
+                            <img src="./assets/to-do-list.png" alt="Imagem Projeto" class="project-img" />
+                        </a>
+                        <h3> Task list </h3>
+                        <p> Task list realizada em ReactJS. Onde é possível adicionar, editar e excluir itens de uma lista de tarefas. </p>
+                        <span> Tecnologias usadas no projeto: React. </span>
+                        <div class="container-btn">
+                            <a class="btn-toview2" href="https://github.com/lucasSlv/to-do-list" target="_blank">
+                                <img src="./assets/link.svg" alt="Link Projeto" />
+                                <p>Visualizar</p>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <a href="https://github.com/lucasSlv/jogo-da-velha" target="_blank" class="c-img-project">
+                            <img src="./assets/tic-tac-toe.png" alt="Imagem Projeto" class="project-img" />
+                        </a>
+                        <h3> Jogo da Velha </h3>
+                        <p> Jogo da Velha realizada em HTML, CSS e JavaScript. <em></em> </p>
+                        <span> Tecnologias usadas no projeto: HTML, CSS, JavaScript. </span>
+                        <div class="container-btn">
+                            <a class="btn-toview1" href="https://github.com/lucasSlv/jogo-da-velha" target="_blank">
+                                <img src="./assets/link.svg" alt="Link Projeto" />
+                                <p>Visualizar</p>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+           <div class="container">
+                <p> @ 2022 - Lucas Silva</p>
+                <div class="logo-footer">
+                    <p>Powered by </p>
+                    <img src="./assets/logo-footer.svg" alt="Logo Footer" />
+                </div>
+           </div>
+        </footer>
+
+        </main>
+    </main>
+
+
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --font: 'Inter', sans-serif;
+    --minimum: 1.4rem;
+    --tiny: 1.6rem;
+    --small: 1.8rem;
+    --intermediary: 2.0rem;
+    --medium: 2.4rem;
+    --medium-large: 3.2rem;
+    --large: 6.4rem; 
+    --weight-light: 300;
+    --weight-intermediary: 400;
+    --weight-medium: 500;
+    --weight-heavy: 600;
+
+
+    --dark: #121212;
+    --dark-200: #151515;
+    --dire-wolf: #272727;
+    --gray-light: #c4c4c4;
+    --light: #ffffff;
+    --blue: #00D2DF;
+    --purple: rgba(147, 88, 247, 1);
+    --gradient-pink: linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%);
+    --gradient-purple: linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font);
+    font-size: var(--tiny);
+    letter-spacing: 0.1rem;
+}
+
+p {
+    color: var(--gray-light)
+}
+
+h1 {
+    color: var(--light);
+}
+
+h2 {
+    color: var(--light);
+    text-transform: uppercase; 
+    margin-bottom: 4.0rem;
+}
+
+h3 {
+    color: var(--light);
+    font-size: var(--intermediary);
+    font-weight: var(--weight-medium);
+}
+
+span {
+    color: var(--blue);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00d2df;
+    border-radius: 5px;
+}
